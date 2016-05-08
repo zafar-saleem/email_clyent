@@ -1,0 +1,35 @@
+.l-menu {
+    position: relative;
+
+    .m-footer {
+        position: absolute;
+        bottom: 45px;
+
+        a {
+            display: inline-block;
+            position: absolute;
+            width: 22px;
+            height: 22px;
+
+            &.exit {
+                background-size: 22px 22px;
+                background-image: url('../../images/exit.png');
+                background-repeat: no-repeat;
+            }
+
+            &.info {
+                left: 155px;
+                background-size: 22px 22px;
+                background-image: url('../../images/Info-100.png');
+                background-repeat: no-repeat;
+            }
+
+            &.settings{
+                left: 200px;
+                background-size: 22px 22px;
+                background-image: url('../../images/settings.png');
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}

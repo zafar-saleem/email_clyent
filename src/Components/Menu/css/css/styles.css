@@ -1,0 +1,93 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * style.scss
+ *
+ * CSS framework.
+ * ----------------------------------------------------------------------------------------
+ */
+/* Compass */
+/* Utilities */
+/* Settings styles */
+/* Utilities styles */
+/* Bootstrap */
+/* Base */
+/* Normalizer */
+/* Base styles */
+/* Fonts */
+/* Layout */
+.l-menu {
+  position: relative;
+  width: 20%;
+  height: 95%;
+  padding: 20px;
+  color: #FFFFFF;
+  background-color: #2b3745; }
+
+/* Modules */
+.l-menu .m-header .user-mini-profile {
+  display: inline-block;
+  vertical-align: top; }
+  .l-menu .m-header .user-mini-profile.user-profile-image {
+    width: 55px; }
+  .l-menu .m-header .user-mini-profile.user-mini-details {
+    width: 65%;
+    padding-top: 3px;
+    padding-left: 10px; }
+
+.l-menu .m-menu {
+  margin: 0;
+  padding: 20px; }
+  .l-menu .m-menu li {
+    position: relative;
+    list-style-type: none;
+    padding: 0; }
+    .l-menu .m-menu li:last-child {
+      padding-top: 16px; }
+    .l-menu .m-menu li a {
+      display: block;
+      padding: 6px;
+      color: #a6a9ad;
+      text-decoration: none; }
+      .l-menu .m-menu li a.active {
+        color: #ffffff; }
+      .l-menu .m-menu li a.expand-items {
+        color: #d1d2d4; }
+    .l-menu .m-menu li .counter {
+      position: absolute;
+      top: 4px;
+      right: 0;
+      padding: 0 6px;
+      color: #2b3745;
+      font-size: 12px;
+      border-radius: 10px;
+      border: 1px solid #FFFFFF;
+      background-color: #ffffff; }
+
+.l-menu {
+  position: relative; }
+  .l-menu .m-footer {
+    position: absolute;
+    bottom: 45px; }
+    .l-menu .m-footer a {
+      display: inline-block;
+      position: absolute;
+      width: 22px;
+      height: 22px; }
+      .l-menu .m-footer a.exit {
+        background-size: 22px 22px;
+        background-image: url("../../images/exit.png");
+        background-repeat: no-repeat; }
+      .l-menu .m-footer a.info {
+        left: 155px;
+        background-size: 22px 22px;
+        background-image: url("../../images/Info-100.png");
+        background-repeat: no-repeat; }
+      .l-menu .m-footer a.settings {
+        left: 200px;
+        background-size: 22px 22px;
+        background-image: url("../../images/settings.png");
+        background-repeat: no-repeat; }
+
+/* Theme */
+
+/*# sourceMappingURL=styles.css.map */

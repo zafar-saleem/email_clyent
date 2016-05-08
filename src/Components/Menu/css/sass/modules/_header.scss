@@ -1,0 +1,19 @@
+.l-menu {
+    .m-header {
+        .user-mini-profile {
+            display: inline-block;
+            vertical-align: top;
+
+            &.user-profile-image {
+                width: 55px;
+            }
+
+            &.user-mini-details {
+                width: 65%;
+                padding-top: 3px;
+                padding-left: 10px;
+            }
+        }
+    }
+}
+

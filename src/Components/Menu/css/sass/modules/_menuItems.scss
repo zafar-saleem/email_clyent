@@ -1,0 +1,43 @@
+.l-menu {
+    .m-menu {
+        margin: 0;
+        padding: 20px;
+
+        li {
+            position: relative;
+            list-style-type: none;
+            padding: 0;
+
+            &:last-child {
+                padding-top: 16px;
+            }
+
+            a {
+                display: block;
+                padding: 6px;
+                color: #a6a9ad;
+                text-decoration: none;
+                
+                &.active {
+                    color: #ffffff;
+                }
+
+                &.expand-items {
+                    color: #d1d2d4;
+                }
+            }
+
+            .counter {
+                position: absolute;
+                top: 4px;
+                right: 0;
+                padding: 0 6px;
+                color: #2b3745;
+                font-size: 12px;
+                border-radius: 10px;
+                border: 1px solid #FFFFFF;
+                background-color: #ffffff;
+            }
+        }
+    }
+}

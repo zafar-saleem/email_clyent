@@ -1,4 +1,5 @@
 node_modules/*
 dist/*
-src/js/libs/*
+src/libs/*
+libs/*
 .DS_Store
