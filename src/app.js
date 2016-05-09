@@ -7,16 +7,27 @@ define(function (require) {
         MenuModel: require('Components/Menu/js/Models/MenuModel'),
         MenuController: require('Components/Menu/js/Controllers/MenuController'),
         MenuItem: require('Components/Menu/js/Views/MenuItems')
+    },
+
+    List = {
+        ListModel: require('Components/EmailsList/js/Models/EmailsListModel'),
+        ListController: require('Components/EmailsList/js/Controllers/EmailsListController'),
+        ListView: require('Components/EmailsList/js/Views/EmailsListView')
     };
 
     var App = (function () {
 
         var init = function () {
-            var model = new Menu.MenuModel(),
-                view = new Menu.MenuItem(),
-                controller = new Menu.MenuController();
+            var menuModel = new Menu.MenuModel(),
+                menuView = new Menu.MenuItem(menuModel, {}),
+                menuController = new Menu.MenuController(menuModel, menuView);
 
-            view.render();
+            var listModel = new List.ListModel(),
+                listView = new List.ListView(listModel, {}),
+                listController = new List.ListController(listModel, listView);
+
+            menuView.render();
+            listView.render();
         };
 
         return {

@@ -16,13 +16,21 @@
   width: 100%;
   min-width: 1140px;
   height: 100%; }
+  .wrapper .email-menu, .wrapper .emails-list {
+    display: inline-block;
+    height: 100%; }
+  .wrapper .email-menu {
+    width: 20%; }
+  .wrapper .emails-list {
+    width: 50%;
+    margin-left: -4px;
+    vertical-align: top; }
 
 /* IE Specific Styles */
 /* Fonts */
 /* Layout */
 .l-menu {
   position: relative;
-  width: 20%;
   height: 95%;
   padding: 20px;
   color: #FFFFFF;

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;;;;;AAGI,qBAAa;EACT,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,GAAG;;;;;ACR3B,aAAc;EACV,OAAO,EAAE,IAAI",
+"sources": ["../sass/base/_base.scss","../sass/layout/_email-list.scss"],
+"names": [],
+"file": "styles.css"
+}

@@ -16,7 +16,7 @@ define(function (require) {
         var template = _.template(MenuTemplate);
 
         var render = function () {
-            $('.wrapper').html(template());
+            $('.email-menu').html(template());
         };
 
         return {
