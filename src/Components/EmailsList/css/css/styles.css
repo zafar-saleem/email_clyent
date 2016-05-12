@@ -67,6 +67,38 @@
     background: url("../../images/new.png") no-repeat;
     background-size: 22px 22px; }
 
+.l-email-list .m-email-items {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px; }
+  .l-email-list .m-email-items li {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 15px; }
+    .l-email-list .m-email-items li:hover {
+      background-color: #e8e9ea;
+      text-decoration: none; }
+    .l-email-list .m-email-items li a {
+      display: block;
+      position: relative;
+      width: 100%; }
+      .l-email-list .m-email-items li a .item-titlebar {
+        color: #777777;
+        font-size: 13px; }
+      .l-email-list .m-email-items li a .item-date {
+        position: absolute;
+        right: 15px;
+        color: #777777;
+        font-size: 13px; }
+      .l-email-list .m-email-items li a .item-subject {
+        color: #555555;
+        font-weight: normal; }
+      .l-email-list .m-email-items li a .short-desc {
+        color: #777777;
+        font-size: 11px; }
+      .l-email-list .m-email-items li a:hover {
+        text-decoration: none; }
+
 /* Theme */
 
 /*# sourceMappingURL=styles.css.map */
